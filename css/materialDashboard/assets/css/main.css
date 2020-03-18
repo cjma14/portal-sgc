@@ -24,7 +24,8 @@
     margin: 0;
 }
 .header-main-pic {
-	min-height:420px;
+    min-height:420px;
+    height: auto;
     background: transparent;
 }
 
@@ -83,9 +84,7 @@
 }
 
 .btn-border {
-    border-bottom-style: solid;
-    border-bottom-width: 5px;
-    border-bottom-color: #145a54;
+    border-bottom: 5px solid #145a54 !important;
 }
 .btn-border:hover {
     background-color: #3c9e95 !important;
@@ -95,4 +94,30 @@
 .blockquote-footer {
 
     color: #abc4d5;
+}
+
+.banner-separator {
+    /* height: 5px; */
+    background-color: #4e2090;
+}
+
+.section-float {
+    verflow: hidden;
+    border-top: 1px solid #e6e6e6;
+}
+
+.section-float-content {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    position: relative;
+    min-height: 550px;  
+}
+
+.section-img {
+        overflow: hidden;
+    position: absolute;
+    top: 70px;
+    right: auto;
+    left: 60%;
 }
