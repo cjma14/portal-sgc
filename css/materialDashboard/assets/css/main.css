@@ -3,15 +3,28 @@
     background-color: #209086 !important;
     box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 12px -5px rgba(54, 124, 91, 0.527);
 }
+.bg-teal {
+    color: #fff;
+    background-color: #209086 !important;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 12px -5px rgba(54, 124, 91, 0.527);
+}
+.bg-blue-dark {
+    color: #fff;
+    background-color: #206290 !important;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 12px -5px rgba(54, 96, 124, 0.527);
+}
 .text-teal {
     color: #ffff;
-    font-weight: 400;
 }
+
+/* .text-white {
+    color: white;
+} */
 .navbar-portal {
     margin: 0;
 }
 .header-main-pic {
-	min-height:380px;
+	min-height:420px;
     background: transparent;
 }
 
@@ -19,27 +32,67 @@
     padding-bottom: 0;
 }
 .logo {
-    max-width: 100%;
+    max-width: 90%;
     height: auto !important;
 }
+/* .off-canvas-sidebar .navbar .navbar-collapse .navbar-nav .nav-item.active >a {
+    color: #206290;
+    font-weight: bold;
+}
+.off-canvas-sidebar .navbar .navbar-collapse .navbar-nav .nav-item:hover{
+    color: #206290;
+}
 
-.nav-item {
+.off-canvas-sidebar .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
     color: #444;
     transition: color 0.3s , border-left 0.2s;
-    border-left: 0px solid #209086;
-}
-.nav-item.active {
-    color: #206290;
-    border-left: 5px solid #209086;
+
 }
 
-.nav-item:hover{
+.off-canvas-sidebar .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
     color: #206290;
-    border-left: 5px solid #209086;
-    
+}
+
+.off-canvas-sidebar .navbar-toggler .navbar-toggler-icon{
+    background-color: #444 !important;
+} */
+
+
+.nowrap-container {
+    flex-wrap: nowrap !important;
 }
 
 /* .nav-link.link-portal:hover{
     border-bottom: 5px solid #209086;
     
 } */
+
+.action-section {
+    padding: 40px 20px 110px;
+    margin: 0 auto;
+    max-width: 970px;
+    position: relative;
+    text-shadow: 0 0 6px #333;
+}
+
+.titulo-sistema h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 34px;
+    margin: 0px;
+}
+
+.btn-border {
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #145a54;
+}
+.btn-border:hover {
+    background-color: #3c9e95 !important;
+    border-bottom-color: #316f69 !important;
+}
+
+.blockquote-footer {
+
+    color: #abc4d5;
+}
