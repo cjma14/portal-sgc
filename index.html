@@ -10,7 +10,6 @@
 </head>
 <body class="off-canvas-sidebar">
 	<header>
-		
 		<section class="header-main-pic" data-parallax="scroll" data-image-src="assets/img/cancilleria2.jpg">
 			<nav class="navbar navbar-expand-lg navbar-transparent">
 				<div class="container nowrap-container">
@@ -29,10 +28,10 @@
 					<form class="navbar-form"></form>
 					<ul class="navbar-nav">
 						<li class="nav-item active">
-							<a class="nav-link" href="javascript:;"><i class="material-icons">fingerprint</i>Ingresar</a>
+							<a class="nav-link" href="" data-toggle="modal" data-target="#loginModal"><i class="material-icons">fingerprint</i>Ingresar</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="javascript:;"><i class="material-icons">info_outline</i>Información</a>
+							<a class="nav-link" href=""><i class="material-icons">info_outline</i>Información</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="javascript:;"><i class="material-icons">directions</i>Localízanos</a>
@@ -51,27 +50,274 @@
 					<footer class="blockquote-footer"> <cite title="Source Title text-white">-Simón Bolívar</cite></footer>
 				</blockquote>
 				<div>
-					<button class="btn btn-lg btn-round bg-teal btn-border">Registarse</button>
+					<a href="" data-toggle="modal" data-target="#signupModal" class="btn btn-lg btn-round bg-teal btn-border">Registarse</a>
 				</div>
 			</div>
 		</section>
 	</header>
-	<div class="banner-separator"></div>
-	<div class="wrapper">
-		<div class="container">
-			<div class="section-float">
-				<div class="section-float-content">
-					<picture class="section-img">
-						<img src="assets/img/info.jpg" alt="Info1">
-					</picture>
-					<h2>¿Como Inicio?</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dicta sunt delectus perferendis aliquam possimus, sapiente laborum, error velit nam cupiditate sed ipsum sint ipsam? Placeat cupiditate harum magnam nihil!</p>
+	
+	<div class="section-float">
+		<div class="section-float-content">
+			<div class="row">
+				<div class="col-md-4 col-sm-12">
+					<h2 class="text-center">
+						<i class="material-icons md-48 teal">group</i>
+					</h2>
+					<h3 class="text-center">Indicar tipo de persona</h3>
+					<br>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eos ratione, beatae impedit quibusdam ipsa harum, 
+						temporibus nisi omnis eveniet libero minus magnam recusandae nemo? Libero quos commodi ut sint!
+					</p>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<h2 class="text-center">
+						<i class="material-icons md-48 orange">contacts</i>
+					</h2>
+					<h3 class="text-center">Completar Datos personales</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eos ratione, beatae impedit quibusdam ipsa harum, 
+						temporibus nisi omnis eveniet libero minus magnam recusandae nemo? Libero quos commodi ut sint!
+					</p>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<h2 class="text-center">
+						<i class="material-icons md-48 blue">email</i>
+					</h2>
+					<h3 class="text-center">Esperar correo de confirmación</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eos ratione, beatae impedit quibusdam ipsa harum, 
+						temporibus nisi omnis eveniet libero minus magnam recusandae nemo? Libero quos commodi ut sint!
+					</p>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div class="section-float">
+		<div class="section-float-content">
 	
+		</div>
+	</div>
 
+	
+	<div class="modal fade" id="signupModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-signup" role="document">
+		  <div class="modal-content">
+			<div class="card card-signup card-plain">
+			  <div class="modal-header">
+				<h5 class="modal-title card-title">Register</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<i class="material-icons">clear</i>
+				</button>
+			  </div>
+			  <br>
+			  <div class="modal-body">
+				<div class="col-md-12">
+					<div class="">
+						<div class="card-body ">
+							<div class="row">
+							  <div class="col-md-4">
+								<ul class="nav nav-pills nav-pills-teal flex-column" role="tablist">
+								  <li class="nav-item">
+									<a class="nav-link active" data-toggle="tab" href="#link4" role="tablist">
+									  Persona Natural
+									</a>
+								  </li>
+								  <li class="nav-item">
+									<a class="nav-link" data-toggle="tab" href="#link5" role="tablist">
+									  Persona Jurídica
+									</a>
+								  </li>
+								</ul>
+							  </div>
+							  <div class="col-md-8">
+								  <form action="">
+									<div class="tab-content">
+										<div class="tab-pane active" id="link4">
+											<form class="form" method="" action="">
+												<div class="card-body">
+													<div class="justify-content-center">
+														<div class="form-check form-check-inline">
+															<label class="form-check-label">
+																<input class="form-check-input" type="radio" name="exampleRadios" value="option1"> Venezolano
+																<span class="circle">
+																<span class="check"></span>
+																</span>
+															</label>
+														  </div>
+															<div class="form-check form-check-inline">
+																<label class="form-check-label">
+																	<input class="form-check-input" type="radio" name="exampleRadios" value="option1"> Extranjero
+																	<span class="circle">
+																	<span class="check"></span>
+																	</span>
+																</label>
+															</div>
+													</div>
+												  <div class="form-group">
+													<div class="input-group">
+													  <div class="input-group-prepend">
+														<div class="input-group-text"><i class="material-icons">face</i></div>
+													  </div>
+														<input type="text" class="form-control" placeholder="Cedúla...">
+													 </div>
+												    </div>
+													<div class="form-group">
+														<div class="input-group">
+															<div class="input-group-prepend">
+															<div class="input-group-text"><i class="material-icons">email</i></div>
+															</div>
+															<input type="text" class="form-control" placeholder="Correo...">
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="input-group">
+															<div class="input-group-prepend">
+															<div class="input-group-text"><i class="material-icons">lock_outline</i></div>
+															</div>
+															<input type="password" placeholder="Contraseña..." class="form-control" />
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="input-group">
+															<div class="input-group-prepend">
+															<div class="input-group-text"><i class="material-icons">lock_outline</i></div>
+															</div>
+															<input type="password" placeholder="Repetir Contraseña..." class="form-control" />
+														</div>
+													</div>
+												</div>
+												<div class="modal-footer justify-content-center">
+												<a href="javascript:;" class="btn bg-blue-dark btn-round">Registrar</a>
+												</div>
+											</form>
+										</div>
+										<div class="tab-pane" id="link5">
+											<form class="form" method="" action="">
+												<div class="card-body">
+													<div class="justify-content-center">
+														<div class="form-check form-check-inline">
+															<label class="form-check-label">
+																<input class="form-check-input" type="radio" name="exampleRadios" value="option1"> Venezolano
+																<span class="circle">
+																<span class="check"></span>
+																</span>
+															</label>
+														  </div>
+															<div class="form-check form-check-inline">
+																<label class="form-check-label">
+																	<input class="form-check-input" type="radio" name="exampleRadios" value="option1"> Extranjero
+																	<span class="circle">
+																	<span class="check"></span>
+																	</span>
+																</label>
+															</div>
+													</div>
+												  <div class="form-group">
+													<div class="input-group">
+													  <div class="input-group-prepend">
+														<div class="input-group-text"><i class="material-icons">business</i></div>
+													  </div>
+														<input type="text" class="form-control" placeholder="Rif o documento legal...">
+													 </div>
+												    </div>
+													<div class="form-group">
+														<div class="input-group">
+															<div class="input-group-prepend">
+															<div class="input-group-text"><i class="material-icons">email</i></div>
+															</div>
+															<input type="text" class="form-control" placeholder="Correo...">
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="input-group">
+															<div class="input-group-prepend">
+															<div class="input-group-text"><i class="material-icons">lock_outline</i></div>
+															</div>
+															<input type="password" placeholder="Contraseña..." class="form-control" />
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="input-group">
+															<div class="input-group-prepend">
+															<div class="input-group-text"><i class="material-icons">lock_outline</i></div>
+															</div>
+															<input type="password" placeholder="Repetir Contraseña..." class="form-control" />
+														</div>
+													</div>
+												</div>
+												<div class="modal-footer justify-content-center">
+												<a href="javascript:;" class="btn bg-blue-dark btn-round">Registrar</a>
+												</div>
+											</form>
+										</div>
+									</div>
+								</form>
+							  </div>
+							</div>
+						</div>
+					</div>
+				  </div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</div>
+	<div class="modal fade" id="loginModal" tabindex="-1" role="">
+		<div class="modal-dialog modal-login" role="document">
+			<div class="modal-content">
+				<div class="card card-signup card-plain">
+					<div class="modal-header">
+					  <div class="card-header card-header-teal text-center">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+						  <i class="material-icons">clear</i>
+						</button>
+						<h4 class="card-title">Inicio de sesión</h4>
+					  </div>
+					</div>
+					<div class="modal-body">
+						<form class="form" method="" action="">
+							<p class="description text-center">Ingrese sus datos</p>
+							<div class="card-body">
+	
+								<div class="form-group bmd-form-group">
+									<div class="input-group">
+									  <div class="input-group-prepend">
+										<div class="input-group-text"><i class="material-icons">face</i></div>
+									  </div>
+									  <input type="text" class="form-control" placeholder="First Name...">
+									</div>
+								</div>
+	
+								<div class="form-group bmd-form-group">
+									<div class="input-group">
+									  <div class="input-group-prepend">
+										<div class="input-group-text"><i class="material-icons">email</i></div>
+									  </div>
+									  <input type="text" class="form-control" placeholder="Email...">
+									</div>
+								</div>
+	
+								<div class="form-group bmd-form-group">
+									<div class="input-group">
+									  <div class="input-group-prepend">
+										<div class="input-group-text"><i class="material-icons">lock_outline</i></div>
+									  </div>
+									  <input type="password" placeholder="Password..." class="form-control">
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer justify-content-center">
+						<a href="javascript:;" class="btn btn-primary btn-link btn-wd btn-lg">Get Started</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
 	<script src="css/materialDashboard/assets/js/core/jquery.min.js"></script>
 	<script src="css/materialDashboard/assets/js/plugins/moment.min.js"></script>
 	<!--   Core JS Files   -->
@@ -90,8 +336,59 @@
 	<script src="css/materialDashboard/assets/js/plugins/sweetalert2.js"></script>
 	<!-- Forms Validations Plugin -->
 	<script src="css/materialDashboard/assets/js/plugins/jquery.validate.min.js"></script>
+	  <!-- Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
+	  <script src="css/materialDashboard/assets/js/plugins/jquery.bootstrap-wizard.js"></script>
+	  <script src="css/materialDashboard/assets/js/core/jquery.min.js"></script>
+  <script src="css/materialDashboard/assets/js/core/popper.min.js"></script>
+  <script src="css/materialDashboard/assets/js/core/bootstrap-material-design.min.js"></script>
+  <script src="css/materialDashboard/assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!-- Plugin for the momentJs  -->
+  <script src="css/materialDashboard/assets/js/plugins/moment.min.js"></script>
+  <!--  Plugin for Sweet Alert -->
+  <script src="css/materialDashboard/assets/js/plugins/sweetalert2.js"></script>
+  <!-- Forms Validations Plugin -->
+  <script src="css/materialDashboard/assets/js/plugins/jquery.validate.min.js"></script>
+  <!-- Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
+  <script src="css/materialDashboard/assets/js/plugins/jquery.bootstrap-wizard.js"></script>
+  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+  <script src="css/materialDashboard/assets/js/plugins/bootstrap-selectpicker.js"></script>
+  <!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+  <script src="css/materialDashboard/assets/js/plugins/bootstrap-datetimepicker.min.js"></script>
+  <!--  DataTables.net Plugin, full documentation here: https://datatables.net/  -->
+  <script src="css/materialDashboard/assets/js/plugins/jquery.dataTables.min.js"></script>
+  <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+  <script src="css/materialDashboard/assets/js/plugins/bootstrap-tagsinput.js"></script>
+  <!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+  <script src="css/materialDashboard/assets/js/plugins/jasny-bootstrap.min.js"></script>
+  <!--  Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar    -->
+  <script src="css/materialDashboard/assets/js/plugins/fullcalendar.min.js"></script>
+  <!-- Vector Map plugin, full documentation here: http://jvectormap.com/documentation/ -->
+  <script src="css/materialDashboard/assets/js/plugins/jquery-jvectormap.js"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="css/materialDashboard/assets/js/plugins/nouislider.min.js"></script>
+  <!-- Include a polyfill for ES6 Promises (optional) for IE11, UC Browser and Android browser support SweetAlert -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+  <!-- Library for adding dinamically elements -->
+  <script src="css/materialDashboard/assets/js/plugins/arrive.min.js"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Chartist JS -->
+  <script src="css/materialDashboard/assets/js/plugins/chartist.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="css/materialDashboard/assets/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="css/materialDashboard/assets/js/material-dashboard.js?v=2.1.0" type="text/javascript"></script>
+  <!-- Material Dashboard DEMO methods, don't include it in your project! -->
+  <script src="css/materialDashboard/assets/demo/demo.js"></script>
 	<script>
-		$('.header-main-pic').parallax({});
+		$(document).ready(function() {
+		// Initialise the wizard
+		demo.initMaterialWizard();
+		setTimeout(function() {
+			$('.card.card-wizard').addClass('active');
+			$('.header-main-pic').parallax();
+		});
+		});
 	</script>
 </body>
 </html>
