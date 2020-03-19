@@ -14,7 +14,7 @@
     box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 12px -5px rgba(54, 96, 124, 0.527);
 }
 .text-teal {
-    color: #ffff;
+    color: #209086;
 }
 
 .material-icons.md-18 { font-size: 18px; }
@@ -225,3 +225,18 @@
   border-color: #2ca8ff;
 }
 
+.card-collapse .card-header a:hover, .card-collapse .card-header a:active, .card-collapse .card-header a[aria-expanded="true"] {
+    color: #209086;
+}
+
+.footer-portal {
+    background: #6c7073;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 14px;
+    position: static !important;
+}
+
+.text-nav-footer {
+    margin: 2px;
+}
