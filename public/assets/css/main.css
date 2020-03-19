@@ -240,3 +240,8 @@
 .text-nav-footer {
     margin: 2px;
 }
+
+ .modal .modal-dialog.modal-login{
+    width: 340px;
+}
+
